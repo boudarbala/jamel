@@ -13,11 +13,11 @@ end
 get_simulation(factory::ExpressionFactory) = factory.simulation
 
 """
-    clean_up(query::String)
+    clean_up(query::AbstractString)
 
 Returns a query cleaned from useless parentheses and spaces.
 """
-function clean_up(query::String)
+function clean_up(query::AbstractString)
     query = strip(query)
     
     if startswith(query, "+")
@@ -48,11 +48,11 @@ function clean_up(query::String)
 end
 
 """
-    get_expression(factory::ExpressionFactory, query::String)
+    get_expression(factory::ExpressionFactory, query::AbstractString)
 
 Returns the specified expression based on the query string.
 """
-function get_expression(factory::ExpressionFactory, query::String)
+function get_expression(factory::ExpressionFactory, query::AbstractString)
     key = clean_up(query)
     
     # Try to parse as a number first
@@ -160,11 +160,11 @@ function get_test_not_equal(factory::ExpressionFactory, arg_string::String)
 end
 
 """
-    parse_arithmetic(factory::ExpressionFactory, key::String)
+    parse_arithmetic(factory::ExpressionFactory, key::AbstractString)
 
 Parses arithmetic expressions (+, -, *, /, %).
 """
-function parse_arithmetic(factory::ExpressionFactory, key::String)
+function parse_arithmetic(factory::ExpressionFactory, key::AbstractString)
     # This is a simplified arithmetic parser
     # In a full implementation, you'd have proper operator precedence
     
