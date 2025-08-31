@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation className="BasicSimulation">
+    <meta name="Simple Example" version="1.0"/>
+    
+    <parameters>
+        <periods value="100"/>
+        <randomSeed value="12345"/>
+    </parameters>
+    
+    <sectors>
+        <sector name="firms" className="BasicSector">
+            <agents count="10"/>
+        </sector>
+        
+        <sector name="households" className="BasicSector">
+            <agents count="100"/>
+        </sector>
+    </sectors>
+    
+    <phases>
+        <phase name="production"/>
+        <phase name="consumption"/>
+        <phase name="accounting"/>
+    </phases>
+    
+    <exports>
+        <!-- Data export configuration would go here -->
+    </exports>
+</simulation>
