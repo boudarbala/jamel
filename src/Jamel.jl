@@ -1,3 +1,17 @@
+"""
+    Jamel - Julia Agent-based MacroEconomic Laboratory
+
+This is a Julia translation of the original Jamel framework created by Pascal Seppecher.
+
+Original Author: Pascal Seppecher
+Original Project: http://p.seppecher.free.fr/jamel/
+
+Jamel is an open source agent-based framework dedicated to the modeling, 
+the simulation and the analysis of complex monetary economies.
+
+This Julia version preserves the core concepts and architecture of the original
+Java implementation while taking advantage of Julia's performance and expressiveness.
+"""
 module Jamel
 
 # Core exports

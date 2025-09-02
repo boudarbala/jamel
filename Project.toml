@@ -1,6 +1,6 @@
 name = "Jamel"
 uuid = "2b5f3f0c-5b5a-4b5a-9b5a-5b5a5b5a5b5a"
-authors = ["Jamel Team"]
+authors = ["Pascal Seppecher (original Java version)", "Jamel Team (Julia translation)"]
 version = "1.0.0"
 
 [deps]
