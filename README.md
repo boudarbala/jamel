@@ -67,10 +67,14 @@ The framework consists of several key components:
 
 The framework uses XML scenario files to configure simulations. Example scenarios are available in the `src/jamel/models/` directory.
 
-## Original Project
+## Credits and Acknowledgments
 
-This is a Julia translation of the original Java project:
-[http://p.seppecher.free.fr/jamel/](http://p.seppecher.free.fr/jamel/)
+This Julia version is a translation of the original Jamel (Java Agent-based MacroEconomic Laboratory) created by Pascal Seppecher and contributors.
+
+**Original Author:** Pascal Seppecher  
+**Original Project:** [http://p.seppecher.free.fr/jamel/](http://p.seppecher.free.fr/jamel/)
+
+*Merci beaucoup* to Pascal Seppecher for creating this excellent framework for agent-based macroeconomic modeling and making it available to the research community.
 
 ## License
 

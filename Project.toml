@@ -1,6 +1,6 @@
 name = "Jamel"
 uuid = "2b5f3f0c-5b5a-4b5a-9b5a-5b5a5b5a5b5a"
-authors = ["Jamel Team"]
+authors = ["Pascal Seppecher (original Java version)", "Jamel Team (Julia translation)"]
 version = "1.0.0"
 
 [deps]
@@ -8,7 +8,7 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
 Blink = "ad839575-38b3-5650-b840-f874b8c74a25"
-XML = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
+EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -20,4 +20,4 @@ DataFrames = "1.0"
 CSV = "0.8"
 PlotlyJS = "0.18"
 Blink = "0.12"
-XML = "0.2"
+EzXML = "1.0"
